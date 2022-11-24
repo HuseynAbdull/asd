@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: red;
+    
+}
+
+.nav-all{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 0;
+    align-items: center;
+}
+
+.right a{
+    border-radius: 5px;
+    padding: 15px 20px;
+    border:none;
+    position: relative;
+    font-size: 20px;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+.right span {
+    background-color: red;
+    padding: 0 5px;
+    border-radius: 100%;
+    position: absolute;
+    top: -2px;
+    right: 0px;
+}
+
+.body{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box img{
+    height: 300px;
+}
